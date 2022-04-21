@@ -11,7 +11,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Shaheen121/Order-summary-component.git)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://shaheen121.github.io/Order-summary-component/m)
 
 ## My process
 
