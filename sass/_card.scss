@@ -1,0 +1,172 @@
+.container {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 445px;
+
+  .card {
+    width: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .picture {
+      background-image: url('../images/illustration-hero.svg');
+      height: 220px;
+      width: 445px;
+      border-radius: 20px 20px 0px 0px;
+    }
+
+    .text {
+      background-color: $white;
+      text-align: center;
+      border-radius: 0px 0px 20px 20px;
+
+      h1 {
+        font-size: 28px;
+        font-weight: 900;
+        padding-top: 50px;
+        padding-bottom: 30px;
+      }
+
+      >p {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 22px;
+        font-size: $paraFontSize;
+        color: $desaturatedBlue;
+      }
+
+
+
+      .price-box {
+        display: flex;
+        background-color: $veryPaleBlue;
+        border-radius: 15px;
+        margin: 0 40px 0 40px;
+        text-align: left;
+
+        img {
+          padding: 20px;
+        }
+
+        .plan {
+          padding-top: 20px;
+
+          >p {
+            color: $desaturatedBlue;
+          }
+        }
+
+        >a {
+          padding: 32px 24px 20px 90px;
+          color: $brightBlue;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 15px;
+        margin: 32px 40px 32px 40px;
+
+        .proceed-button {
+          background-color: $brightBlue;
+          text-decoration: none;
+          color: $white;
+          padding: 18px 0 18px 0;
+          border-radius: 15px;
+
+          &:hover {
+            font-weight: bold;
+            background-color: $brightBlue02;
+          }
+        }
+
+        .cancel-button {
+          text-decoration: none;
+          color: $desaturatedBlue;
+          padding: 18px 0 18px 0;
+          border-radius: 15px;
+
+          &:hover {
+            font-weight: bold;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    width: 300px;
+
+    .card {
+      width: 300px;
+
+      .picture {
+        background-position: center;
+        height: 190px;
+        width: 300px;
+        padding-top: 35px;
+      }
+
+      .text {
+        background-color: $white;
+        width: 300px;
+
+        h1 {
+          padding-top: 35px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .price-box {
+          margin: 0 20px 0 20px;
+          img {
+            transform: scale(0.7);
+            padding: 15px;
+          }
+
+          >a {
+            padding: 28px 0px 0px 36px;
+          }
+
+          .plan {
+            padding-top: 15px;
+            h3 {
+              font-size: 14px;
+            }
+          }
+
+
+
+        }
+
+        .buttons {
+          font-size: 14px;
+          margin: 18px 20px 18px 20px;
+          font-weight: bold;
+        }
+
+      }
+    }
+  }
+}
