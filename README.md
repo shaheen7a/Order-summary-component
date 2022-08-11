@@ -1,5 +1,12 @@
 # Frontend Mentor - Order summary card solution
 
+![Design preview for the Clipboard landing page coding challenge](./images/desktop-preview.jpg)
+
+## Welcome! 👋
+Thanks for checking out this front-end coding challenge.
+
+## Overview
+
 This is a solution to the [Order summary card challenge on Frontend Mentor]
 
 ### The challenge
@@ -20,8 +27,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Sass
-- Mobile-first workflow
+## Author
 
+- Frontend Mentor - [@shaheen121](https://www.frontendmentor.io/profile/Shaheen121)
+- Facebook - [@aoushaheen7](https://www.facebook.com/shaheen7tl/)
 
-Thank you
+By me 🚀🚀🚀
+Aous Shaheen
